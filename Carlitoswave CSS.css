@@ -20,7 +20,7 @@ h1 {
     line-height: normal;
     font-family: 'National', sans-serif;
     font-weight: bolder;
-    font-size: 125px;
+    font-size: 100px;
     color:black;
     text-align: center;
 
@@ -40,6 +40,15 @@ h2 {
 
 }
 
+h3{
+    padding-top: 150px;
+    font-family: 'National', sans-serif;
+    font-weight: normal;
+    font-weight: bold;
+    font-size: 50px;
+    
+}
+
 
 p  { 
     padding: 50px 10px;
@@ -52,20 +61,25 @@ p  {
 }
 
 
-a{ 
+div.nav a{ 
     color: black;
     text-decoration: none;
 
 }
 
 
-a:hover{
+div.nav a:hover{
+    border-bottom: 2px solid #74b0df;
+
+}
+
+div.nav a:active{
     border-bottom: 2px solid #74b0df;
 
 }
 
 
-a.current_page_indicator {
+div.nav a.current_page_indicator {
     border-bottom: 2px solid red;
 }
 
@@ -133,9 +147,11 @@ section.work_grid article:nth-child(3) {
 
 
 
+/*
 p,div,section,h1,h2,h3,h4,header,article,h5{
     border: 2px solid red ;
 }
+*/
 
 /*End Work Page*/
 
@@ -183,7 +199,7 @@ input[type=submit]:hover {
 
 .contact {
     background-color: white;
-    padding: 20px;
+/*    padding: 20px;*/
     margin-bottom:100px;
     width:600px;
 }
