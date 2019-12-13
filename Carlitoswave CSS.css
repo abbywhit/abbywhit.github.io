@@ -80,7 +80,7 @@ div.nav a:active{
 
 
 div.nav a.current_page_indicator {
-    border-bottom: 2px solid red;
+    border-bottom: 2px solid purple;
 }
 
 .nav{
