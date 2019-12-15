@@ -32,8 +32,8 @@ h1 {
 }
 
 h2 {
-    padding:5px;
-    padding-left: 50px;
+    /*    padding:5px;*/
+    /*    padding-left: 50px;*/
     padding-right: 100px;
     text-transform: none;
     letter-spacing: .5px;
@@ -57,8 +57,8 @@ h3{
 
 
 h4{
-    
-    
+
+
 }
 
 
@@ -131,6 +131,15 @@ ul{
     background-position: center;
     background-size: cover;
 }
+
+
+
+.maingrid{
+    display:grid ;
+    grid-template-columns:1fr 1fr 1fr 1fr;
+
+}
+
 
 
 
@@ -238,7 +247,7 @@ input[type=submit]:hover {
     background-color:green;
     margin:0px;
     padding:0px;
-  
+
 }
 
 
@@ -248,8 +257,8 @@ input[type=submit]:hover {
 }
 
 .icons {
-    width:20px;
-    height:20px;
+    width:auto;
+    height:auto;
 }
 
 
