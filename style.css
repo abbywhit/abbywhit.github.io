@@ -6,6 +6,13 @@ body {
 }
 
 .main {
+    margin: 50px 50px 50px 50px;
+    display:grid ;
+    grid-template-columns: 1fr 1fr ;
+
+}
+
+.services_main {
     margin: 250px 50px 50px 50px;
     display:grid ;
     grid-template-columns: 1fr 1fr ;
@@ -128,6 +135,7 @@ ul{
     background-size: cover;
 }
 
+
 /*Bio Page*/
 
 
@@ -136,6 +144,11 @@ ul{
     height: 50%;
 
 }
+
+.contact h2{
+    margin-left:50px;
+}
+
 
 
 /*Work Page*/
@@ -175,11 +188,9 @@ border: 2px solid red ;
     margin-top: 200px;
 }
 
-
-id="193425025523149"
-
 /*Start Contact Form*/
 
+/*
 .text{
     font-family: 'National', sans-serif;
     text-align: center;
@@ -191,13 +202,13 @@ id="193425025523149"
 }
 
 input[type=text], select, textarea {
-    width: 100%; /* Full width */
-    padding: 12px; /* Some padding */
-    border: 1px solid #ccc; /* Gray border */
-    box-sizing: border-box; /* Make sure that padding and width stays in place */
-    margin-top: 6px; /* Add a top margin */
-    margin-bottom: 16px; /* Bottom margin */
-    resize: vertical; /* Allow the user to vertically resize the textarea (not horizontally) */
+    width: 100%; 
+    padding: 12px; 
+    border: 1px solid #ccc;
+    box-sizing: border-box; 
+    margin-top: 6px; 
+    margin-bottom: 16px; 
+    resize: vertical;
     font-family:'National', sans-serif;
 }
 
@@ -221,10 +232,10 @@ input[type=submit]:hover {
 
 .contact {
     background-color: white;
-    /*    padding: 20px;*/
     margin-bottom:100px;
     width:600px;
 }
+*/
 
 /*End Contact Form*/
 
@@ -259,9 +270,13 @@ input[type=submit]:hover {
 }
 
 .icons {
-    width:auto;
-    height:auto;
+    position: relative;
+    top:50px;
+    left: 20px;
+    
 }
+
+
 
 /*
 div,section,header,nav,h1,h2,h3,h4,h5,p {
