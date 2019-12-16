@@ -51,8 +51,38 @@ h3  {
     font-size: 50px;
     margin-left: 50px;
     margin-top: 0px;
+ 
 
 }
+
+
+h4{
+    font-family: 'National', sans-serif;
+    font-weight: normal;
+    font-weight: bold;
+    font-size: 20px;
+    margin-left: 50px;
+    padding-top: 20px;
+
+
+
+}
+
+p1{
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 15px ;
+    font-family: 'National', sans-serif;
+    font-weight: lighter;
+    line-height: 1em;
+    font-size: 16px;
+    color:black;
+
+
+}
+
+
+
 
 p  {
     margin-left: 50px;
@@ -140,8 +170,8 @@ ul{
 
 
 .left_column img {
-    width:780px;
-    height: 50%;
+    width:800px;
+    height: auto;
 
 }
 
@@ -192,48 +222,48 @@ border: 2px solid red ;
 
 /*
 .text{
-    font-family: 'National', sans-serif;
-    text-align: center;
-    font-size: 100;
-    color:white;
-    font-weight: bolder;
-    font-variant-caps: all-small-caps;
-    letter-spacing: 8px;
+font-family: 'National', sans-serif;
+text-align: center;
+font-size: 100;
+color:white;
+font-weight: bolder;
+font-variant-caps: all-small-caps;
+letter-spacing: 8px;
 }
 
 input[type=text], select, textarea {
-    width: 100%; 
-    padding: 12px; 
-    border: 1px solid #ccc;
-    box-sizing: border-box; 
-    margin-top: 6px; 
-    margin-bottom: 16px; 
-    resize: vertical;
-    font-family:'National', sans-serif;
+width: 100%; 
+padding: 12px; 
+border: 1px solid #ccc;
+box-sizing: border-box; 
+margin-top: 6px; 
+margin-bottom: 16px; 
+resize: vertical;
+font-family:'National', sans-serif;
 }
 
 
 label {
-    font-family:'National', sans-serif;
+font-family:'National', sans-serif;
 }
 
 
 input[type=submit] {
-    background-color: #2D3D56;
-    color: white;
-    padding: 12px 20px;
-    font-family:'National', sans-serif;
+background-color: #2D3D56;
+color: white;
+padding: 12px 20px;
+font-family:'National', sans-serif;
 }
 
 input[type=submit]:hover {
-    background-color: dimgrey;
-    font-family:'National', sans-serif;
+background-color: dimgrey;
+font-family:'National', sans-serif;
 }
 
 .contact {
-    background-color: white;
-    margin-bottom:100px;
-    width:600px;
+background-color: white;
+margin-bottom:100px;
+width:600px;
 }
 */
 
@@ -273,14 +303,14 @@ input[type=submit]:hover {
     position: relative;
     top:50px;
     left: 20px;
-    
+
 }
 
 
 
 /*
 div,section,header,nav,h1,h2,h3,h4,h5,p {
-    border: 2px solid red ;
+border: 2px solid red ;
 }
 */
 
